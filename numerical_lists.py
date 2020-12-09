@@ -1,4 +1,4 @@
-#Ryan Walters Dec3 2020 -- Working through the Python lessons on numerical lists
+#Ryan Walters Dec3 2020 -- Working through the Python lessons on numerical lists as well the Try it Yourself projects 4-3, 4-6 through 4-9
 
 #Initial test of the range function
 print("Initial test of range function:")
