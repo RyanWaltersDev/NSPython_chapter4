@@ -1,7 +1,8 @@
 #Ryan Walters Dec3 2020 -- Practicing for statement loops with my favorite kinds of pizza. Also expanding for Try it yourself 4-10 and 4-11
 
 #Initial list and for statement loop with initial print
-favorite_pizzas = ['sausage', 'margherita', 'pepperonni', 'greek', 'buffalo chicken']
+favorite_pizzas = ['sausage', 'margherita', 'pepperonni', 'greek', 
+    'buffalo chicken']
 for pizza in favorite_pizzas:
 	print(pizza.title())
 	
@@ -26,5 +27,11 @@ for pizza in favorite_pizzas[-3:]:
 	print(pizza.title())
 
 #Making a copy of the list Try it yourself 4-11
+friend_pizzas = favorite_pizzas[:]
+friend_pizzas.append("barbecue")
+friend_pizzas.remove("greek")
+print("\nMy friend likes most of the same pizzas. Here is their list:")
+for pizza in friend_pizzas:
+	print(pizza.title())
 
 #END OF PROGRAM
